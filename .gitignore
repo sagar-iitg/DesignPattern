@@ -2,3 +2,4 @@
 **/.idea/tasks.xml
 .idea
 .DS_Store
+target/
