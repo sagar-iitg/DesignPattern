@@ -1,5 +1,6 @@
 package com.sagar.logger;
 
 public enum LogLevel {
-    DEBUG,INFO;
+    DEBUG,INFO,ERROR;
+
 }

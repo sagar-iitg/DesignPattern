@@ -8,8 +8,8 @@ public class Main
 {
     public static void main( String[] args )
     {
-        Logger logger = LoggerFactory.createLogger(LogLevel.DEBUG);
-        logger.log("This is debug");
+        Logger logger = LoggerFactory.createLogger(LogLevel.ERROR);
+        logger.log(" This is Error");
 
     }
 
