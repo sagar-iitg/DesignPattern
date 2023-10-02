@@ -4,4 +4,9 @@
 .DS_Store
 target/
 build/
+.gradle/
+.vscode/
+bin/
+
+
 
