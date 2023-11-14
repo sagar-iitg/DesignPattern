@@ -61,5 +61,9 @@ public class Main {
                 System.out.println("\t" + j.getDescription());
             }
         }
+
+        System.out.println("--");
+
+        System.out.println(c1.getDescription());
     }
 }
