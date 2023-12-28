@@ -1,4 +1,4 @@
-package com.sagar.logger;
+package com.sagar.example1.logger;
 
 
 public interface Logger {

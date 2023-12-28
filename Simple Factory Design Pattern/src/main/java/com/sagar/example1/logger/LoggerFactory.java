@@ -1,8 +1,8 @@
-package com.sagar.logger;
+package com.sagar.example1.logger;
 
-import com.sagar.logger.impl.DebugLogger;
-import com.sagar.logger.impl.ErrorLogger;
-import com.sagar.logger.impl.InfoLogger;
+import com.sagar.example1.logger.impl.DebugLogger;
+import com.sagar.example1.logger.impl.ErrorLogger;
+import com.sagar.example1.logger.impl.InfoLogger;
 
 public class LoggerFactory {
 

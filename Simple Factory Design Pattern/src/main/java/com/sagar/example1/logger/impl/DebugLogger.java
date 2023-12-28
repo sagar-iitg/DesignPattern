@@ -1,6 +1,6 @@
-package com.sagar.logger.impl;
+package com.sagar.example1.logger.impl;
 
-import com.sagar.logger.Logger;
+import com.sagar.example1.logger.Logger;
 
 public class DebugLogger implements Logger {
 
