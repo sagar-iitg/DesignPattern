@@ -11,8 +11,8 @@ class Computer {
     // Constructor is private to enforce the use of the builder
     private Computer() {
         // Initialization of required properties
-        this.processor = "Default Processor";
-        this.memory = 4; // Default memory size in GB
+        this.processor = "M2 Processor";
+        this.memory = 8; // Default memory size in GB
         this.storage = 256; // Default storage size in GB
     }
 
