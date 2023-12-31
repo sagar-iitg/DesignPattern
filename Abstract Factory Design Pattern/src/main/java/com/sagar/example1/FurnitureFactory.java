@@ -1,4 +1,4 @@
-package com.sagar;
+package com.sagar.example1;
 
 
 // Abstract Factory: Furniture Factory

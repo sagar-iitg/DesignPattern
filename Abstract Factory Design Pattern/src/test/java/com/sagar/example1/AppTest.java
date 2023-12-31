@@ -1,4 +1,4 @@
-package com.sagar;
+package com.sagar.example1;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

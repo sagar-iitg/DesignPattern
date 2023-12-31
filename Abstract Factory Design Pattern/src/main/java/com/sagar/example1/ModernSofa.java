@@ -1,4 +1,4 @@
-package com.sagar;
+package com.sagar.example1;
 
 // Concrete Products: Modern Furniture Items
 class ModernSofa implements Sofa {
