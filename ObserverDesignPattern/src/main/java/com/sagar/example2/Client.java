@@ -16,7 +16,7 @@ public class Client {
         group.notify("msg");
 
         group.unsubscribe(user1);
-        
+
         group.notify("new msg");
 
     }
