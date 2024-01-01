@@ -13,11 +13,11 @@ public class Client {
         group.subscribe(user2);
         group.subscribe(user3);
 
-        group.notify("msg");
+        group.notifyAllUser("msg");
 
         group.unsubscribe(user1);
 
-        group.notify("new msg");
+        group.notifyAllUser("new msg");
 
     }
 }

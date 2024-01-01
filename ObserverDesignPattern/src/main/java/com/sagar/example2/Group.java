@@ -16,7 +16,7 @@ public class Group {
         users.remove(user);
     }
 
-    public void notify(String msg) {
+    public void notifyAllUser(String msg) {
         for (Subscriber i:users) {
                 i.notify(msg);
             
