@@ -1,4 +1,4 @@
-package sagar.example1;
+package com.sagar.example1;
 
 // Behavioral design patterns are concerned with algorithms
 // and the assignment of responsibilities between objects

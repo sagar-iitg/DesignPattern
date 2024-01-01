@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group 'sagar'
-version '1.0-SNAPSHOT'
+group 'com.sagar'
+version '1.0.0'
 
 repositories {
     mavenCentral()
