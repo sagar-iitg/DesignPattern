@@ -92,6 +92,9 @@ Providing a uniform way to traverse collections without exposing their underlyin
 * Early/Eager intialization: Involves creating the singleton instance at the same time the class is loaded or during application startup. It ensures that the instance is always available but may consume 
 resources even if not needed immediately
 * Eager Initialization: The singleton instance will be created as soon as the class loader loads the class into memory. 
+* In eager initialization of the singleton pattern, the instance of the singleton class is created at the time of class loading. This ensures that the instance is always available and thread-safe. However, there can be potential issues with eager initialization when multiple threads access the singleton instance simultaneously.
+
+
 
 
 * Late Intialization: In Late intialization, the singleton instance is created when it first requested.
@@ -116,8 +119,6 @@ This conserves resources and often used for scenarios where creation of object i
 * Resource Managers: Controlling access to resource like: file systems 
 
 
-
-In eager initialization of the singleton pattern, the instance of the singleton class is created at the time of class loading. This ensures that the instance is always available and thread-safe. However, there can be potential issues with eager initialization when multiple threads access the singleton instance simultaneously.
 
 
 
