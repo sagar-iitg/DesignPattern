@@ -3,7 +3,7 @@ package sagar.doublechecking;
 
 public class DBConnection {
 
-    private static DBConnection conObject;
+    private static volatile DBConnection conObject;
     private DBConnection(){
 
     }
