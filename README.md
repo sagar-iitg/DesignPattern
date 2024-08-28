@@ -120,6 +120,19 @@ This conserves resources and often used for scenarios where creation of object i
 
 
 
+##                  Decorator Design Pattern
+
+
+
+##   The Decorator Pattern allows adding behavior to an object dynamically, without modifying its structure.
+
+* It’s like customizing chai. You start with basic chai and then add ingredients (ginger, cardamom) as needed, without changing the original recipe.
+* The pattern allows you to add features dynamically without altering the core logic.
+* Code Reusability: You can reuse the basic chai and create different variations without duplicating code.
+* Scalability: You can keep adding new types of chai by introducing new decorators without changing existing ones.
+
+
+
 
 
 
