@@ -17,7 +17,7 @@ In the Simple Factory Pattern, which component determines the type of object to 
 Client code
 
 
-## Builder Design Pattern
+##                Builder Design Pattern
 
 Create Object Step By Step (remembering order), optional parameter, 
 Builder pattern helps making immuable object
@@ -26,7 +26,6 @@ Builder pattern helps making immuable object
 
 
 
-##                 Observer Design Pattern
 
 ##                 Iterator Design Pattern
 
