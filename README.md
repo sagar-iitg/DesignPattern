@@ -13,6 +13,41 @@
 ##                  Behavioral Design Pattern
 
 
+This document provides a categorized list of common design patterns, their definitions, and use cases.
+
+| **Design Pattern**            | **Definition**                                                               | **Category**   | **Use Cases**                                                                                     |
+|-------------------------------|------------------------------------------------------------------------------|----------------|--------------------------------------------------------------------------------------------------|
+| **Singleton**                 | Ensures a class has only one instance and provides a global point of access. | Creational     | Logging service, configuration managers, database connection pools.                             |
+| **Factory Method**            | Defines an interface for creating an object, allowing subclasses to decide.  | Creational     | Document readers (e.g., creating `PDFReader` or `WordReader` based on input file type).          |
+| **Abstract Factory**          | Creates families of related or dependent objects without specifying classes. | Creational     | GUI toolkits (e.g., creating buttons and text boxes for different operating systems).            |
+| **Builder**                   | Separates object construction from representation.                           | Creational     | Constructing complex objects like `Car`, `House`, or `HttpRequest` with step-by-step assembly.   |
+| **Prototype**                 | Creates new objects by copying an existing one.                              | Creational     | Cloning shapes in a graphic editor or creating objects in gaming environments.                   |
+| **Object Pool**               | Manages a pool of reusable objects to improve resource use.                  | Creational     | Database connections, thread pools, or reusable buffer objects.                                 |
+| **Adapter**                   | Converts a class's interface into another interface expected by the client.  | Structural     | Integrating legacy code with a modern system, connecting APIs with mismatched interfaces.        |
+| **Bridge**                    | Decouples abstraction from implementation so they can vary independently.    | Structural     | Implementing cross-platform UI components or separating device and rendering logic in graphics.  |
+| **Composite**                 | Composes objects into tree structures to represent part-whole hierarchies.   | Structural     | File systems (folders and files), organizational hierarchies, or UI menu structures.             |
+| **Decorator**                 | Dynamically adds responsibilities to objects.                                | Structural     | Adding functionalities to a `FileStream` (e.g., compression, encryption).                       |
+| **Facade**                    | Provides a simplified interface to a complex subsystem.                      | Structural     | Simplifying access to subsystems like media players, database libraries, or payment gateways.    |
+| **Flyweight**                 | Minimizes memory use by sharing data among similar objects.                  | Structural     | Rendering text in word processors, managing objects in games like trees in a forest scene.       |
+| **Proxy**                     | Provides a placeholder to control access to another object.                  | Structural     | Lazy initialization, access control, or implementing network proxies.                           |
+| **Chain of Responsibility**   | Passes a request along a chain of handlers until one handles it.             | Behavioral     | Logging frameworks, approval workflows, or request handling in web servers.                     |
+| **Command**                   | Encapsulates a request as an object.                                         | Behavioral     | Implementing undo/redo functionality in text editors or managing remote controls.                |
+| **Interpreter**               | Defines a grammar and an interpreter for a language.                         | Behavioral     | Mathematical expression evaluators or scripting language interpreters.                           |
+| **Iterator**                  | Provides a way to access elements sequentially without exposing structure.   | Behavioral     | Traversing collections like arrays, lists, or trees without exposing their internal structure.   |
+| **Mediator**                  | Encapsulates how objects interact.                                           | Behavioral     | Managing communication in chat applications or centralizing UI component interaction.            |
+| **Memento**                   | Captures and restores an object’s state without breaking encapsulation.      | Behavioral     | Saving and restoring game progress or implementing undo in text editors.                         |
+| **Observer**                  | Establishes a one-to-many dependency for state changes.                      | Behavioral     | Event-driven systems like stock price trackers or notification systems.                          |
+| **State**                     | Alters an object’s behavior when its state changes.                          | Behavioral     | Implementing state machines for ATMs, traffic lights, or game character behaviors.               |
+| **Strategy**                  | Encapsulates interchangeable algorithms.                                     | Behavioral     | Sorting strategies (e.g., quicksort or mergesort), payment methods in e-commerce systems.        |
+| **Template Method**           | Defines the structure of an algorithm, deferring steps to subclasses.        | Behavioral     | Frameworks like Spring’s lifecycle methods or defining workflow for report generation.           |
+| **Visitor**                   | Represents an operation to be performed on object elements.                  | Behavioral     | Operations on file systems (e.g., size calculation or searching) or syntax tree traversal.       |
+
+---
+
+### Code Examples
+For code implementations of these patterns, refer to the respective directories in the repository.
+
+
 
 ####               MCQ
 
