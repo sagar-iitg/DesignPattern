@@ -1,4 +1,4 @@
-package com.sagar.example;
+package com.sagar.example1;
 
 public class ChaiShop {
 

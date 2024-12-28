@@ -5,14 +5,16 @@
 
 ##                 Structural Design Pattern
 
-Add New functionality without modifying the entire system.
-Class structures
-Object Structures
+* Add New functionality without modifying the entire system.
+* Focus on structuring the object,classes
+* This pattern help us in organize objects and classes for better scalability, reusability and flexibility
 
 
 ##                  Behavioral Design Pattern
 
-##                 MCQ
+
+
+####               MCQ
 
 
 
@@ -138,8 +140,7 @@ This conserves resources and often used for scenarios where creation of object i
 
 
 
-##   The Decorator Pattern allows adding behavior to an object dynamically, without modifying its structure.
-
+* The Decorator Pattern allows adding behavior to an object dynamically, without modifying its structure.
 * It’s like customizing chai. You start with basic chai and then add ingredients (ginger, cardamom) as needed, without changing the original recipe.
 * The pattern allows you to add features dynamically without altering the core logic.
 * Code Reusability: You can reuse the basic chai and create different variations without duplicating code.
