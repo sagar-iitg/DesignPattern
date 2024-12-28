@@ -233,7 +233,17 @@ Providing a uniform way to traverse collections without exposing their underlyin
 1. Protection Proxy
 2. Logging Proxy
 3. Caching Proxy
-4. 
+
+
+##                 Facade Design Pattern: Structural
+
+* Complex System : Provided single interface
+* simple abstraction hai aur kuch nahi
+* provides a simplified interface to a complex subsystem
+* 
+
+
+
 
 
 
