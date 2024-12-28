@@ -220,6 +220,21 @@ Providing a uniform way to traverse collections without exposing their underlyin
 ##                 Adapter Design Pattern: Structural
 
 
+##                 Proxy Design Pattern: Structural
+
+* Authority to represent someone else
+* client, proxy, realObject)(subject)
+* Control Access: Security Reason
+* Exact mirror of realObject
+* USA(Client),Indian Diplomat (Proxy),India(RealObject)
+* Proxy layer -> interacts with the real object.
+* 
+
+1. Protection Proxy
+2. Logging Proxy
+3. Caching Proxy
+4. 
+
 
 
 
