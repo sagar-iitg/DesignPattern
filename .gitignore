@@ -10,3 +10,19 @@ bin/
 
 
 
+**/.gitignore
+**/src/main/java/com/sagar/Main.java
+**/src/main/java/com/sagar/Main.java
+**/build.gradle
+/FacadeDesignPattern/pom.xml
+/ProxyDesignPattern/pom.xml
+/ProxyDesignPattern/.gitignore
+**/gradle/wrapper/gradle-wrapper.jar
+**/settings.gradle
+**/gradlew
+/ProxyDesignPattern/src/main/java/com/sagar/Main.java
+/FacadeDesignPattern/.gitignore
+**/gradlew.bat
+**/gradle/wrapper/gradle-wrapper.properties
+**/gradle/wrapper/gradle-wrapper.jar
+
