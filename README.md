@@ -240,9 +240,16 @@ Providing a uniform way to traverse collections without exposing their underlyin
 * Complex System : Provided single interface
 * simple abstraction hai aur kuch nahi
 * provides a simplified interface to a complex subsystem
+* Intellij-> new Project-> code geneate : project structure here NewProject is facade
+* underlying complexity : simplify this
+
+
+
+
+##                 Bridge Design Pattern: Structural
+
+* System Design on the Go
 * 
-
-
 
 
 
