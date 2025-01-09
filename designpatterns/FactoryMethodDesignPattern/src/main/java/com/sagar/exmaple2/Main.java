@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Notification notification=NotificationFactory.createNotification("sma");
+        Notification notification=NotificationFactory.createNotification("sms");
         notification.notifyUser();
 
     }

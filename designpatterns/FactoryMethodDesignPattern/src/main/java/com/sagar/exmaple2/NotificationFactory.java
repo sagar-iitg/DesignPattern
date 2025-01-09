@@ -16,6 +16,9 @@ public class NotificationFactory {
             return new PushNotification();
 
         }
+        else if(channel.equalsIgnoreCase("sms")){
+            return new  SmsNotification();
+        }
         else {
             throw new IllegalArgumentException("Unknown channel "+ channel);
 
