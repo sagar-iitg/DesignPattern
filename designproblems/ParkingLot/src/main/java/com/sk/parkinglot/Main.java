@@ -1,4 +1,4 @@
-package com.sk;
+package com.sk.parkinglot;
 
 public class Main {
   public static void main(String[] args) {
