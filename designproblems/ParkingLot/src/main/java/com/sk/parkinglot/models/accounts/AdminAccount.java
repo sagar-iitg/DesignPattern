@@ -8,7 +8,7 @@ import com.sk.parkinglot.models.facilities.Exit;
 
 public class AdminAccount extends IAccount {
 
-  // khud ki kuch poperties bhi hongi vo add kardo
+
   public boolean addParkingSpot(IParkingSpot spot) {
     // add your impl here
     return false;
