@@ -1,5 +1,7 @@
 package sagar.eager;
 
+
+//eager initlaization is thread safe
 public class DBConnection {
 
     private static DBConnection conObject=new DBConnection();

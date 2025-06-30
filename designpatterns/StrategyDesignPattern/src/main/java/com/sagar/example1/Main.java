@@ -8,6 +8,9 @@ public class Main {
 
         int[] arr={10,20,-9,89};
         SortingStrategy sortingStrategy=new BubbleSort();
+        //SortingStrategy sortingStrategy=new MergeSort();
+
+
         Context context=new Context(sortingStrategy);
         context.executeStrategy(arr);
         System.out.println(Arrays.toString(arr));

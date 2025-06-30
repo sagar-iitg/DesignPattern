@@ -1,5 +1,6 @@
 package sagar.lazy;
 
+//lazy initlaization is not thread safe
 public class DBConnection {
 
     private static DBConnection conObject;
