@@ -2,11 +2,14 @@ package com.sk.parkinglot;
 
 import com.sk.parkingspots.ParkingSpot;
 import com.sk.vehicle.IVehicle;
+import lombok.Getter;
 
 import java.util.List;
 
+@Getter
 public class ParkingLot {
-    private List<ParkingSpot> parkingSpots;
+    // Getter for parking spots
+    private final List<ParkingSpot> parkingSpots;
     // Constructor to initialize the parking lot with parking spots
     public ParkingLot(List<ParkingSpot> parkingSpots) {
         this.parkingSpots = parkingSpots;
@@ -53,9 +56,5 @@ public class ParkingLot {
             }
         }
         return null; // Spot not found
-    }
-    // Getter for parking spots
-    public List<ParkingSpot> getParkingSpots() {
-        return parkingSpots;
     }
 }
