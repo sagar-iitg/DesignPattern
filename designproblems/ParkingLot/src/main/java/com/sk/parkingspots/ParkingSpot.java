@@ -1,12 +1,14 @@
 package com.sk.parkingspots;
 
 import com.sk.vehicle.IVehicle;
+import lombok.Getter;
 
+@Getter
 public abstract class ParkingSpot {
-    private int spotNumber;
+    private final int spotNumber;
     private boolean isOccupied;
     private IVehicle IVehicle;
-    private String spotType;
+    private final String spotType;
     // Constructor to initialize parking spot with spot number and type
     public ParkingSpot(int spotNumber, String spotType) {
         this.spotNumber = spotNumber;
@@ -42,16 +44,5 @@ public abstract class ParkingSpot {
         this.IVehicle = null;
         this.isOccupied = false;
     }
-    // Getter for spot number
-    public int getSpotNumber() {
-        return spotNumber;
-    }
-    // Getter for the vehicle parked in the spot
-    public IVehicle getVehicle() {
-        return IVehicle;
-    }
-    // Getter for spot type
-    public String getSpotType() {
-        return spotType;
-    }
+
 }

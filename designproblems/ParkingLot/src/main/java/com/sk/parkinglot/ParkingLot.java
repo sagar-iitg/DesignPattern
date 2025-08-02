@@ -36,7 +36,7 @@ public class ParkingLot {
     // Method to vacate a parking spot
     public void vacateSpot(ParkingSpot spot, IVehicle IVehicle) {
         if (spot != null && spot.isOccupied()
-                && spot.getVehicle().equals(IVehicle)) {
+                && spot.getIVehicle().equals(IVehicle)) {
             spot.vacate(); // Free the spot
             System.out.println(IVehicle.getVehicleType()
                     + " vacated the spot: " + spot.getSpotNumber());

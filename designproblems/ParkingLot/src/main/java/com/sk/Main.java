@@ -5,8 +5,8 @@ import com.sk.fare.BasicHourlyRateStrategy;
 import com.sk.fare.PremiumRateStrategy;
 import com.sk.fare.ParkingFeeStrategy;
 import com.sk.parkinglot.ParkingLot;
-import com.sk.parkingspots.ConcreteParkingSpots.BikeParkingSpot;
-import com.sk.parkingspots.ConcreteParkingSpots.CarParkingSpot;
+import com.sk.parkingspots.BikeParkingSpot;
+import com.sk.parkingspots.CarParkingSpot;
 import com.sk.parkingspots.ParkingSpot;
 import com.sk.payment.CashPayment;
 import com.sk.payment.CreditCardPayment;
@@ -22,6 +22,7 @@ public class Main {
     public static void main(String[] args) {
         // Initialize parking spots
         List<ParkingSpot> parkingSpots = new ArrayList<>();
+
         parkingSpots.add(new CarParkingSpot(1, "Car"));
         parkingSpots.add(new CarParkingSpot(2,"Car"));
         parkingSpots.add(new BikeParkingSpot(3, "Bike"));

@@ -1,6 +1,6 @@
-package com.sk.parkingspots.ConcreteParkingSpots;
+package com.sk.parkingspots;
 
-import com.sk.parkingspots.ParkingSpot;
+import com.sk.constants.VehicleType;
 import com.sk.vehicle.IVehicle;
 
 public class BikeParkingSpot extends ParkingSpot {
@@ -10,6 +10,6 @@ public class BikeParkingSpot extends ParkingSpot {
 
     @Override
     public boolean canParkVehicle(IVehicle IVehicle) {
-        return "Bike".equalsIgnoreCase(IVehicle.getVehicleType());
+        return VehicleType.BIKE.name().equalsIgnoreCase(IVehicle.getVehicleType());
     }
 }
