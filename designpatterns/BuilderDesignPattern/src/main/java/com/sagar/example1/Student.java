@@ -38,6 +38,10 @@ class Student {
                 '}';
     }
 
+    public static StudentBuilder builder(){
+        return new StudentBuilder();
+    }
+
     // Static Builder class
     public static class StudentBuilder {
         private Student student = new Student();
