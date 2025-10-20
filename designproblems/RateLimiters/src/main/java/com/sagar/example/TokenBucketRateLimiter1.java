@@ -1,13 +1,13 @@
-package com.sagar;
+package com.sagar.example;
 
-public class TokenBucketRateLimiter {
+public class TokenBucketRateLimiter1 {
 
     private final long capacity;             // Max tokens that can be stored
     private final double refillRatePerSecond; // Tokens added per second
     private double tokens;                   // Current token count
     private long lastRefillTimestamp;        // Last refill time in nanoseconds
 
-    public TokenBucketRateLimiter(long capacity, double refillRatePerSecond) {
+    public TokenBucketRateLimiter1(long capacity, double refillRatePerSecond) {
         this.capacity = capacity;
         this.refillRatePerSecond = refillRatePerSecond;
         this.tokens = capacity;              // Start full
@@ -38,7 +38,7 @@ public class TokenBucketRateLimiter {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        TokenBucketRateLimiter limiter = new TokenBucketRateLimiter(5, 1); // 5 tokens max, +1 token/sec
+        TokenBucketRateLimiter1 limiter = new TokenBucketRateLimiter1(5, 1); // 5 tokens max, +1 token/sec
 
         for (int i = 1; i <= 10; i++) {
             boolean allowed = limiter.allowRequest();

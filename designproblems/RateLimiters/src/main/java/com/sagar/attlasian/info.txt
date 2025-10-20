@@ -1,0 +1,21 @@
+This implementation provides three rate limiting strategies:
+
+Fixed Window Counter
+Sliding Window Log
+Token Bucket
+The RateLimiter class uses the Strategy pattern,
+allowing you to easily switch between different rate limiting algorithms.
+
+Key points:
+
+The RateLimitStrategy interface defines the contract for all rate limiting strategies.
+Each strategy implementation (FixedWindowCounter, SlidingWindowLog, TokenBucket)
+provides its own logic for rate limiting.
+The RateLimiter class is configured with a specific strategy
+and delegates the rate limiting decision to that strategy.
+This implementation is thread-safe, using ConcurrentHashMap
+and atomic operations where necessary. It's also designed to be efficient,
+avoiding unnecessary object creation and using time-based expiration for old data.
+
+To use a different strategy,
+  you simply need to create a new RateLimiter instance with the desired strat
